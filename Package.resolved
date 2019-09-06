@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "JJLISO8601DateFormatter",
+        "repositoryURL": "https://github.com/michaeleisel/JJLISO8601DateFormatter.git",
+        "state": {
+          "branch": null,
+          "revision": "4e3c015c6b2e7ca01d99e183c32b051864784209",
+          "version": "0.1.2"
+        }
+      },
+      {
+        "package": "ZippyJSONCFamily",
+        "repositoryURL": "https://github.com/michaeleisel/ZippyJSONCFamily.git",
+        "state": {
+          "branch": null,
+          "revision": "f39bc53aee94dc60c02a530d1a846fd5ac7d0918",
+          "version": "0.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

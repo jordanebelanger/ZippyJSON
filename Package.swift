@@ -12,17 +12,12 @@ let package = Package(
             targets: ["ZippyJSON"]),
     ],
     dependencies: [
-        .package(path: "../ZippyJSONCFamily"),
-        .package(path: "../JJLISO8601DateFormatter")
+        .package(url: "https://github.com/michaeleisel/JJLISO8601DateFormatter.git", from: "0.1.2"),
+        .package(url: "https://github.com/michaeleisel/ZippyJSONCFamily.git", from: "0.0.2"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
-        .target(
-            name: "ZippyJSON",
-            dependencies: ["ZippyJSONCFamily", "JJLISO8601DateFormatter"]),
-        .testTarget(
-            name: "ZippyJSONTests",
-            dependencies: ["ZippyJSON"]),
+        .target(name: "ZippyJSON", dependencies: ["ZippyJSONCFamily", "JJLISO8601DateFormatter"])
     ]
 )
